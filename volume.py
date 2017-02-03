@@ -4,4 +4,4 @@ l = input("Inserisci il lato ")
 if x==1 :
    print "il volume del cubo e' ", l**3
 else : 
-   print "il volume della sfera e' ", (4*math.pi*l**3)/3
+   print "il volume della sfera e' ", (4.0*math.pi*l**3)/3.0
