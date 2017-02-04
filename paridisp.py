@@ -1,7 +1,7 @@
 x = input("Inserisci il numero ")
 
-if x%2==0 :
+if x%2 == 0:
    print("Il numero e' pari ")
 
-else :
+else:
    print("Il numero e' dispari ")
