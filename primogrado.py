@@ -8,9 +8,6 @@ if a != 0 and b != 0:
 elif a == 0 and b == 0: 
 	print "Il risultato e' 0"
 
-elif  b == 0: 
-	print "il risultato e' sempre ", -b/a
-
 else: 
 	print "l'equazione e' impossibile "
 
