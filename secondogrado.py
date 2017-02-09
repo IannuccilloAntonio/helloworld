@@ -14,9 +14,9 @@ elif a == 0:
 else: 
 	delta = (b**2) - (4.0*a*c)
 	if delta > 0: 
-    		x1 =  (float(-b) + math.sqrt(delta))/2.0*a
-		x2 =  (float(-b) - math.sqrt(delta))/2.0*a
-		print "x1 vale ", x1 , "x2 vale ", x2
+    		x1 =  (-b + math.sqrt(delta))/(a*2.0)		
+                x2 =  (-b - math.sqrt(delta))/(a*2.0)		
+                print "x1 vale ", x1 , "x2 vale ", x2
 	elif delta == 0:
 		x = -b/(a*2.0)
 		print "x vale = ", x
